@@ -306,6 +306,7 @@ public class ViewExam extends AppCompatActivity {
                 exam = getRandomQuestions();
                 break;
         }
+        getQuestions();
     }
 
 
@@ -559,7 +560,7 @@ public class ViewExam extends AppCompatActivity {
         ArrayList<Exam> randomQuestions = new ArrayList<Exam>();
         int[] numbers = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
         int index;
-        getQuestions();
+
 
         for (int i = 0; i < 10; i++) {
             Log.d("ahmadtrue", i + "");
